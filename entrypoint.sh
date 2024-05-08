@@ -2,6 +2,8 @@
 
 cd functions; npm install
 
+pwd
+
 if [ -z "${FIREBASE_TOKEN}" ]; then
     echo "FIREBASE_TOKEN is missing"
     exit 1
