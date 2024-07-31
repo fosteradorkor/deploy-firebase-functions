@@ -14,6 +14,7 @@ if [ -z "${FIREBASE_PROJECT}" ]; then
     exit 1
 fi
 
+echo ${FIREBASE_ARGS}
 tsc
 cd ..
 
