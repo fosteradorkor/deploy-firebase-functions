@@ -21,4 +21,5 @@ cd ..
 firebase deploy \
     -m "${GITHUB_REF} (${GITHUB_SHA})" \
     --project ${FIREBASE_PROJECT} \
-    --only ${FIREBASE_ARGS}
+    --only ${FIREBASE_ARGS} \
+    
