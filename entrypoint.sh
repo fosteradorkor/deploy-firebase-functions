@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd functions; npm install
+cd functions; npm install; npm run build
 
 pwd
 
